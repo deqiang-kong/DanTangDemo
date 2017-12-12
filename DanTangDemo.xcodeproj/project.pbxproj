@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD404E941FDF7CB70012F40D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD404E931FDF7CB70012F40D /* AppDelegate.swift */; };
+		BD404E961FDF7CB70012F40D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD404E951FDF7CB70012F40D /* ViewController.swift */; };
+		BD404E991FDF7CB70012F40D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD404E971FDF7CB70012F40D /* Main.storyboard */; };
+		BD404E9C1FDF7CB70012F40D /* DanTangDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD404E9A1FDF7CB70012F40D /* DanTangDemo.xcdatamodeld */; };
+		BD404E9E1FDF7CB70012F40D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD404E9D1FDF7CB70012F40D /* Assets.xcassets */; };
+		BD404EA11FDF7CB70012F40D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD404E9F1FDF7CB70012F40D /* LaunchScreen.storyboard */; };
+		BD404EAC1FDF7CB80012F40D /* DanTangDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD404EAB1FDF7CB80012F40D /* DanTangDemoTests.swift */; };
+		BD404EB71FDF7CB80012F40D /* DanTangDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD404EB61FDF7CB80012F40D /* DanTangDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD404EA81FDF7CB80012F40D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD404E881FDF7CB70012F40D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD404E8F1FDF7CB70012F40D;
+			remoteInfo = DanTangDemo;
+		};
+		BD404EB31FDF7CB80012F40D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD404E881FDF7CB70012F40D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD404E8F1FDF7CB70012F40D;
+			remoteInfo = DanTangDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD404E901FDF7CB70012F40D /* DanTangDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanTangDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD404E931FDF7CB70012F40D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD404E951FDF7CB70012F40D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD404E981FDF7CB70012F40D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD404E9B1FDF7CB70012F40D /* DanTangDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DanTangDemo.xcdatamodel; sourceTree = "<group>"; };
+		BD404E9D1FDF7CB70012F40D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD404EA01FDF7CB70012F40D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD404EA21FDF7CB70012F40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD404EA71FDF7CB80012F40D /* DanTangDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanTangDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD404EAB1FDF7CB80012F40D /* DanTangDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanTangDemoTests.swift; sourceTree = "<group>"; };
+		BD404EAD1FDF7CB80012F40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD404EB21FDF7CB80012F40D /* DanTangDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanTangDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD404EB61FDF7CB80012F40D /* DanTangDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanTangDemoUITests.swift; sourceTree = "<group>"; };
+		BD404EB81FDF7CB80012F40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD404E8D1FDF7CB70012F40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD404EA41FDF7CB80012F40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD404EAF1FDF7CB80012F40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD404E871FDF7CB70012F40D = {
+			isa = PBXGroup;
+			children = (
+				BD404E921FDF7CB70012F40D /* DanTangDemo */,
+				BD404EAA1FDF7CB80012F40D /* DanTangDemoTests */,
+				BD404EB51FDF7CB80012F40D /* DanTangDemoUITests */,
+				BD404E911FDF7CB70012F40D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD404E911FDF7CB70012F40D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD404E901FDF7CB70012F40D /* DanTangDemo.app */,
+				BD404EA71FDF7CB80012F40D /* DanTangDemoTests.xctest */,
+				BD404EB21FDF7CB80012F40D /* DanTangDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD404E921FDF7CB70012F40D /* DanTangDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BD404E931FDF7CB70012F40D /* AppDelegate.swift */,
+				BD404E951FDF7CB70012F40D /* ViewController.swift */,
+				BD404E971FDF7CB70012F40D /* Main.storyboard */,
+				BD404E9D1FDF7CB70012F40D /* Assets.xcassets */,
+				BD404E9F1FDF7CB70012F40D /* LaunchScreen.storyboard */,
+				BD404EA21FDF7CB70012F40D /* Info.plist */,
+				BD404E9A1FDF7CB70012F40D /* DanTangDemo.xcdatamodeld */,
+			);
+			path = DanTangDemo;
+			sourceTree = "<group>";
+		};
+		BD404EAA1FDF7CB80012F40D /* DanTangDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD404EAB1FDF7CB80012F40D /* DanTangDemoTests.swift */,
+				BD404EAD1FDF7CB80012F40D /* Info.plist */,
+			);
+			path = DanTangDemoTests;
+			sourceTree = "<group>";
+		};
+		BD404EB51FDF7CB80012F40D /* DanTangDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD404EB61FDF7CB80012F40D /* DanTangDemoUITests.swift */,
+				BD404EB81FDF7CB80012F40D /* Info.plist */,
+			);
+			path = DanTangDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD404E8F1FDF7CB70012F40D /* DanTangDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD404EBB1FDF7CB80012F40D /* Build configuration list for PBXNativeTarget "DanTangDemo" */;
+			buildPhases = (
+				BD404E8C1FDF7CB70012F40D /* Sources */,
+				BD404E8D1FDF7CB70012F40D /* Frameworks */,
+				BD404E8E1FDF7CB70012F40D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanTangDemo;
+			productName = DanTangDemo;
+			productReference = BD404E901FDF7CB70012F40D /* DanTangDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD404EA61FDF7CB80012F40D /* DanTangDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD404EBE1FDF7CB80012F40D /* Build configuration list for PBXNativeTarget "DanTangDemoTests" */;
+			buildPhases = (
+				BD404EA31FDF7CB80012F40D /* Sources */,
+				BD404EA41FDF7CB80012F40D /* Frameworks */,
+				BD404EA51FDF7CB80012F40D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD404EA91FDF7CB80012F40D /* PBXTargetDependency */,
+			);
+			name = DanTangDemoTests;
+			productName = DanTangDemoTests;
+			productReference = BD404EA71FDF7CB80012F40D /* DanTangDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD404EB11FDF7CB80012F40D /* DanTangDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD404EC11FDF7CB80012F40D /* Build configuration list for PBXNativeTarget "DanTangDemoUITests" */;
+			buildPhases = (
+				BD404EAE1FDF7CB80012F40D /* Sources */,
+				BD404EAF1FDF7CB80012F40D /* Frameworks */,
+				BD404EB01FDF7CB80012F40D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD404EB41FDF7CB80012F40D /* PBXTargetDependency */,
+			);
+			name = DanTangDemoUITests;
+			productName = DanTangDemoUITests;
+			productReference = BD404EB21FDF7CB80012F40D /* DanTangDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD404E881FDF7CB70012F40D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Kaipai;
+				TargetAttributes = {
+					BD404E8F1FDF7CB70012F40D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BD404EA61FDF7CB80012F40D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD404E8F1FDF7CB70012F40D;
+					};
+					BD404EB11FDF7CB80012F40D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD404E8F1FDF7CB70012F40D;
+					};
+				};
+			};
+			buildConfigurationList = BD404E8B1FDF7CB70012F40D /* Build configuration list for PBXProject "DanTangDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD404E871FDF7CB70012F40D;
+			productRefGroup = BD404E911FDF7CB70012F40D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD404E8F1FDF7CB70012F40D /* DanTangDemo */,
+				BD404EA61FDF7CB80012F40D /* DanTangDemoTests */,
+				BD404EB11FDF7CB80012F40D /* DanTangDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD404E8E1FDF7CB70012F40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD404EA11FDF7CB70012F40D /* LaunchScreen.storyboard in Resources */,
+				BD404E9E1FDF7CB70012F40D /* Assets.xcassets in Resources */,
+				BD404E991FDF7CB70012F40D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD404EA51FDF7CB80012F40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD404EB01FDF7CB80012F40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD404E8C1FDF7CB70012F40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD404E961FDF7CB70012F40D /* ViewController.swift in Sources */,
+				BD404E9C1FDF7CB70012F40D /* DanTangDemo.xcdatamodeld in Sources */,
+				BD404E941FDF7CB70012F40D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD404EA31FDF7CB80012F40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD404EAC1FDF7CB80012F40D /* DanTangDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD404EAE1FDF7CB80012F40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD404EB71FDF7CB80012F40D /* DanTangDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD404EA91FDF7CB80012F40D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD404E8F1FDF7CB70012F40D /* DanTangDemo */;
+			targetProxy = BD404EA81FDF7CB80012F40D /* PBXContainerItemProxy */;
+		};
+		BD404EB41FDF7CB80012F40D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD404E8F1FDF7CB70012F40D /* DanTangDemo */;
+			targetProxy = BD404EB31FDF7CB80012F40D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD404E971FDF7CB70012F40D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD404E981FDF7CB70012F40D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD404E9F1FDF7CB70012F40D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD404EA01FDF7CB70012F40D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD404EB91FDF7CB80012F40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD404EBA1FDF7CB80012F40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD404EBC1FDF7CB80012F40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AUE7CC8Y3;
+				INFOPLIST_FILE = DanTangDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiang.DanTangDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD404EBD1FDF7CB80012F40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AUE7CC8Y3;
+				INFOPLIST_FILE = DanTangDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiang.DanTangDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD404EBF1FDF7CB80012F40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AUE7CC8Y3;
+				INFOPLIST_FILE = DanTangDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiang.DanTangDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanTangDemo.app/DanTangDemo";
+			};
+			name = Debug;
+		};
+		BD404EC01FDF7CB80012F40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AUE7CC8Y3;
+				INFOPLIST_FILE = DanTangDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiang.DanTangDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanTangDemo.app/DanTangDemo";
+			};
+			name = Release;
+		};
+		BD404EC21FDF7CB80012F40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AUE7CC8Y3;
+				INFOPLIST_FILE = DanTangDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiang.DanTangDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DanTangDemo;
+			};
+			name = Debug;
+		};
+		BD404EC31FDF7CB80012F40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AUE7CC8Y3;
+				INFOPLIST_FILE = DanTangDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiang.DanTangDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DanTangDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD404E8B1FDF7CB70012F40D /* Build configuration list for PBXProject "DanTangDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD404EB91FDF7CB80012F40D /* Debug */,
+				BD404EBA1FDF7CB80012F40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD404EBB1FDF7CB80012F40D /* Build configuration list for PBXNativeTarget "DanTangDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD404EBC1FDF7CB80012F40D /* Debug */,
+				BD404EBD1FDF7CB80012F40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD404EBE1FDF7CB80012F40D /* Build configuration list for PBXNativeTarget "DanTangDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD404EBF1FDF7CB80012F40D /* Debug */,
+				BD404EC01FDF7CB80012F40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD404EC11FDF7CB80012F40D /* Build configuration list for PBXNativeTarget "DanTangDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD404EC21FDF7CB80012F40D /* Debug */,
+				BD404EC31FDF7CB80012F40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD404E9A1FDF7CB70012F40D /* DanTangDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD404E9B1FDF7CB70012F40D /* DanTangDemo.xcdatamodel */,
+			);
+			currentVersion = BD404E9B1FDF7CB70012F40D /* DanTangDemo.xcdatamodel */;
+			path = DanTangDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD404E881FDF7CB70012F40D /* Project object */;
+}
