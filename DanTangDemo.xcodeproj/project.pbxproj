@@ -46,6 +46,7 @@
 		BD404F1C1FDFDE250012F40D /* ProductDetailToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD404F1A1FDFDE240012F40D /* ProductDetailToolBar.swift */; };
 		BD404F1F1FDFE3690012F40D /* TMALLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD404F1E1FDFE3690012F40D /* TMALLViewController.swift */; };
 		BD404F211FDFE4A80012F40D /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD404F201FDFE4A80012F40D /* ActionSheet.swift */; };
+		BD6E427F208F6F5600B588E1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BD6E427E208F6F5600B588E1 /* README.md */; };
 		BDE203971FE0084E0083B53D /* DetailScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE203961FE0084E0083B53D /* DetailScrollView.swift */; };
 		BDE203991FE008B40083B53D /* ProductDetailTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE203981FE008B40083B53D /* ProductDetailTopView.swift */; };
 		BDE2039B1FE00B150083B53D /* ProductDetailBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2039A1FE00B150083B53D /* ProductDetailBottomView.swift */; };
@@ -160,6 +161,7 @@
 		BD404F1A1FDFDE240012F40D /* ProductDetailToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailToolBar.swift; sourceTree = "<group>"; };
 		BD404F1E1FDFE3690012F40D /* TMALLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMALLViewController.swift; sourceTree = "<group>"; };
 		BD404F201FDFE4A80012F40D /* ActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheet.swift; sourceTree = "<group>"; };
+		BD6E427E208F6F5600B588E1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BDE203961FE0084E0083B53D /* DetailScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailScrollView.swift; sourceTree = "<group>"; };
 		BDE203981FE008B40083B53D /* ProductDetailTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailTopView.swift; sourceTree = "<group>"; };
 		BDE2039A1FE00B150083B53D /* ProductDetailBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailBottomView.swift; sourceTree = "<group>"; };
@@ -255,6 +257,7 @@
 		BD404E871FDF7CB70012F40D = {
 			isa = PBXGroup;
 			children = (
+				BD6E427E208F6F5600B588E1 /* README.md */,
 				BD404EC41FDF7CF90012F40D /* PodFile */,
 				BD404E921FDF7CB70012F40D /* DanTangDemo */,
 				BD404EAA1FDF7CB80012F40D /* DanTangDemoTests */,
@@ -683,6 +686,7 @@
 				BD404F071FDFBAC50012F40D /* CollectionViewCell.xib in Resources */,
 				BD404EE11FDF7D9F0012F40D /* Main.storyboard in Resources */,
 				BDE203CA1FE0D80B0083B53D /* CategoryCollectionViewCell.xib in Resources */,
+				BD6E427F208F6F5600B588E1 /* README.md in Resources */,
 				BDE203EE1FE1009D0083B53D /* SettingCell.xib in Resources */,
 				BD404E9E1FDF7CB70012F40D /* Assets.xcassets in Resources */,
 				BDE203D71FE0DCD60083B53D /* CollectionTableViewCell.xib in Resources */,
