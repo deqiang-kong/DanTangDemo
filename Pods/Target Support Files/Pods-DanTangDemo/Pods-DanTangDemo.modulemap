@@ -1,0 +1,6 @@
+framework module Pods_DanTangDemo {
+  umbrella header "Pods-DanTangDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

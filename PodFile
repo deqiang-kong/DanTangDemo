@@ -1,0 +1,20 @@
+platform :ios, "10.0"
+use_frameworks!
+
+target "DanTangDemo" do
+    pod 'SVProgressHUD'     #提示框
+    pod 'FDFullscreenPopGesture', '~> 1.1'  #侧滑手势
+    pod 'Alamofire', '~> 4.3.0'     #网络请求
+    pod 'SwiftyJSON', '~> 3.1.4'    #解析JSON数据
+    pod 'Kingfisher', '~>3.3.4'     #缓存图片
+    pod 'SnapKit', '~> 3.1.2'       #设置约束
+ 
+    
+end
+
+
+
+
+
+
+
